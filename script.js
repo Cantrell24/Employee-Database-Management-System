@@ -65,4 +65,12 @@ addEmployeeForm.addEventListener("submit", (e) =>{
 // Add employee end
 
 //Select Employee Logic Start
+    const renderSingleEmployee = () {
+    //Employee Delete Logic - Start
+    if (selectedEmployee === -1) {
+        employeeInfo.innerHTML = "";
+        return;
+    }
+    
+}
 
